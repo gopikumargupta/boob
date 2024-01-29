@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: block;
+}
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    
+}
+#white{
+    background-color: whitesmoke;
+}
+#grey{
+    background-color:darkgrey;
+}
+#yello{
+
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+.but{
+    border: solid black 1px;
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+    background-color: aqua;
+}
+body{
+    cursor: grab;
+}

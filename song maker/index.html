@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gg{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items:center ;
+            flex-direction: row;
+            overflow: hidden;
+            gap:50px ;
+            
+
+        }
+   .a{
+
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:  20px ;
+  border: solid red 2px;
+
+     }
+     
+        
+
+
+    </style>
+</head>
+<body>
+    <div id="gg">
+    
+        <div class="a" id="button1">1</div>
+        <div class="a" id="button2">2</div>
+        <div class="a" id="button3">3</div>
+        <div class="a" id="button4">4</div>
+        <div class="a" id="button5">5</div>
+        <div class="a" id="button6">6</div>
+        <div class="a" id="button7">7</div>
+        <div class="a" id="button8">8</div>
+
+
+    </div>
+    <script>
+
+        // const div=document.getElementById('gg');
+
+        // const one=document.getElementById('button1')
+        // const two=document.getElementById('button2')
+        // const three=document.getElementById('button3')
+        // const four=document.getElementById('button4')
+        // const five=document.getElementById('button5')
+        // const six=document.getElementById('button6')
+        // const seven=document.getElementById('button7')
+        // const eight=document.getElementById('button8')
+        
+        // console.log(one);
+
+
+
+        const aud1=new Audio('1.wav');
+        const aud2=new Audio('2.wav');
+        const aud3=new Audio('3.wav');
+        const aud4=new Audio('4.wav');
+        const aud5=new Audio('5.wav');
+        const aud6=new Audio('6.wav');
+        const aud7=new Audio('7.wav');
+        const aud8=new Audio('8.wav');
+
+
+        document.body.addEventListener("keyup",function(e){
+            console.log(e.key==='1')
+
+
+            if(e.key==='1'){
+                aud1.play()
+            }
+            if(e.key==='2'){
+                aud2.play()
+            }
+            if(e.key==='3'){
+                aud3.play()
+            }
+            if(e.key==='4'){
+                aud4.play()
+            }
+            if(e.key==='5'){
+                aud5.play()
+            }
+            if(e.key==='6'){
+                aud6.play()
+            }
+            if(e.key==='7'){
+                aud7.play()
+            }
+            if(e.key==='8'){
+                aud8.play()
+            }
+
+        
+
+        
+        })
+
+
+        
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>
