@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, 'sans-serif';
+    font-size: 16px;
+    margin: auto;
+}
+
+#con{
+    height: 400px;
+    width: 400px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    border-radius: 5px;
+    padding: 1rem;
+}
+#butoon{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
