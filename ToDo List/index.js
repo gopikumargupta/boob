@@ -6,7 +6,7 @@ const body=document.querySelector('body');
 
 function add(){
     if(inputbox.value===''){
-        alert("kuch to likh le bhai")
+        alert("PLEASE WRITE SOMETHING")
     }
     
     else{
