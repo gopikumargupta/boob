@@ -48,7 +48,7 @@ function gameOver(){
 
 
 
-     if((gamegrid[pos[0]] !== ""|| gamegrid[pos[1]] !== "" ||gamegrid[pos[2] !== ""]) 
+     if((gamegrid[pos[0]] !== ""|| gamegrid[pos[1]] !== "" ||gamegrid[pos[2]] !== "") 
      && (gamegrid[pos[0]] === gamegrid[pos[1]]) && (gamegrid[pos[1]] === gamegrid[pos[2]])){
 
         if(gamegrid[pos[0]] === "X"){
